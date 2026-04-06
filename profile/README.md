@@ -7,7 +7,11 @@
 </p>
 
 <p align="center">
-  Zorka helps teams turn policy into live production decisions with AI-assisted authoring, typed rule systems, and a stateless runtime that runs in their own cloud.
+  Zorka helps teams turn policy into live production decisions with AI-assisted authoring and a stateless runtime that runs in their cloud for full runtime speed.
+</p>
+
+<p align="center">
+  PII and PIFI stay in their environment instead of being sent to ours.
 </p>
 
 <p align="center">
@@ -25,9 +29,9 @@
 | What matters | What Zorka gives them |
 | --- | --- |
 | Business teams need to change rules without waiting on a release | AI-assisted authoring, guided editors, and decision tables that keep logic aligned with the runtime |
-| Sensitive workflows cannot push data into a shared SaaS rules store | A stateless runtime that executes in your environment and returns a result |
+| Sensitive workflows cannot push data into a shared SaaS rules store | A stateless runtime that executes in your environment so PII and PIFI stay in your cloud, not ours |
 | Multiple teams need isolation and governance | Team-aware sign-in, org-scoped control, and deployment patterns that stay close to each application |
-| Technical teams need speed without mystery | Typed inputs, reusable logic, traceability, and clear execution behavior |
+| Technical teams need speed without mystery | Runtime execution in your cloud for full engine speed, plus typed inputs, reusable logic, traceability, and clear execution behavior |
 
 ---
 
@@ -51,6 +55,6 @@ If you want the product story, deployment model, or a closer look at how Zorka w
 
 ## More Information
 
-Zorka is built for teams that need business rules to move faster without giving up control.
+Zorka is built for teams that need business rules to move faster without giving up control, performance, or data custody.
 
 Visit [zorka.com](https://zorka.com) for product details and next steps.

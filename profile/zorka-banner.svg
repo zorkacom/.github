@@ -108,11 +108,11 @@
   <g transform="translate(590 52)">
     <text x="0" y="74" fill="#EDF4FF" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="-1.4" textLength="760" lengthAdjust="spacingAndGlyphs">Your business rules.</text>
     <text x="0" y="138" fill="#C89BFF" font-family="Segoe UI, Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="-1.4" textLength="824" lengthAdjust="spacingAndGlyphs">Running where decisions happen.</text>
-    <text x="2" y="184" fill="#8EA1BF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.7" textLength="818" lengthAdjust="spacingAndGlyphs">AI-ASSISTED AUTHORING / CLOUD-READY RUNTIME / DEPLOY IN YOUR ENVIRONMENT</text>
+    <text x="2" y="184" fill="#8EA1BF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.4" textLength="818" lengthAdjust="spacingAndGlyphs">RUNS IN YOUR CLOUD / FULL RUNTIME SPEED / PII + PIFI STAY IN YOUR ENVIRONMENT</text>
     <path d="M0 220H444" stroke="url(#banner-rule)" stroke-width="2"/>
     <text fill="#C9D6E8" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="500">
-      <tspan x="0" y="266" textLength="790" lengthAdjust="spacingAndGlyphs">Typed rule systems, business-owned workflows, and a stateless engine</tspan>
-      <tspan x="0" y="294">for live production decisions.</tspan>
+      <tspan x="0" y="266" textLength="790" lengthAdjust="spacingAndGlyphs">Runs in your cloud for full runtime speed, while PII and PIFI stay</tspan>
+      <tspan x="0" y="294" textLength="640" lengthAdjust="spacingAndGlyphs">in your environment instead of being sent to ours.</tspan>
     </text>
 
     <g transform="translate(0 320)">
