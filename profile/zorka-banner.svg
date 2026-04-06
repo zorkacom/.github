@@ -1,0 +1,202 @@
+<svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Zorka organization banner</title>
+  <desc id="desc">Zorka GitHub organization banner with the original Zorka logo and a layout optimized for GitHub profile rendering.</desc>
+  <defs>
+    <linearGradient id="banner-bg" x1="112" y1="36" x2="1512" y2="392" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07111E"/>
+      <stop offset="0.5" stop-color="#0F1B2D"/>
+      <stop offset="1" stop-color="#091321"/>
+    </linearGradient>
+    <radialGradient id="banner-violet-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(270 202) rotate(22.8) scale(296 208)">
+      <stop offset="0" stop-color="#863BFF" stop-opacity="0.48"/>
+      <stop offset="0.52" stop-color="#863BFF" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#863BFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="banner-teal-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1122 118) rotate(10) scale(246 128)">
+      <stop offset="0" stop-color="#46B69F" stop-opacity="0.24"/>
+      <stop offset="0.65" stop-color="#47BFFF" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#47BFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="banner-rule" x1="0" y1="0" x2="444" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C89BFF"/>
+      <stop offset="0.45" stop-color="#863BFF"/>
+      <stop offset="1" stop-color="#46B69F"/>
+    </linearGradient>
+    <linearGradient id="banner-chip-stroke" x1="0" y1="0" x2="228" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C89BFF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#46B69F" stop-opacity="0.42"/>
+    </linearGradient>
+    <linearGradient id="banner-grid" x1="942" y1="0" x2="1486" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8EA1BF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#8EA1BF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#8EA1BF" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="banner-zorka-mask" width="48" height="46" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+      <path fill="#000" d="M25.842 44.938c-.664.844-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 0-2.262-2.262H10.183c-.92 0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.498 0-3.579-1.842-3.579H1.133c-.92 0-1.456-1.04-.92-1.787L9.91.473c.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.471c-1.07 1.498 0 3.578 1.842 3.578h11.377c.943 0 1.473 1.088.89 1.832L25.843 44.94z"/>
+    </mask>
+  </defs>
+
+  <rect x="1" y="1" width="1598" height="418" rx="28" fill="url(#banner-bg)"/>
+  <rect x="1" y="1" width="1598" height="418" rx="28" stroke="#17253B"/>
+
+  <ellipse cx="274" cy="204" rx="304" ry="214" fill="url(#banner-violet-glow)"/>
+  <ellipse cx="1120" cy="118" rx="256" ry="138" fill="url(#banner-teal-glow)"/>
+
+  <g opacity="0.42">
+    <path d="M942 82H1488" stroke="url(#banner-grid)" stroke-width="1"/>
+    <path d="M894 210H1522" stroke="url(#banner-grid)" stroke-width="1"/>
+    <path d="M948 338H1480" stroke="url(#banner-grid)" stroke-width="1"/>
+    <path d="M1224 54V366" stroke="#152137" stroke-width="1"/>
+  </g>
+
+  <path d="M520 78V344" stroke="#17253B" stroke-width="1.2"/>
+
+  <g transform="translate(98 70)">
+    <g transform="scale(6)">
+      <path fill="#863bff" d="M25.946 44.938c-.664.845-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 0-2.262-2.262H10.287c-.92 0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.497 0-3.578-1.842-3.578H1.237c-.92 0-1.456-1.04-.92-1.788L10.013.474c.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.471c-1.07 1.498 0 3.579 1.842 3.579h11.377c.943 0 1.473 1.088.89 1.83L25.947 44.94z"/>
+      <g mask="url(#banner-zorka-mask)">
+        <g filter="url(#banner-zorka-b)">
+          <ellipse cx="5.508" cy="14.704" fill="#ede6ff" rx="5.508" ry="14.704" transform="matrix(.00324 1 1 -.00324 -4.47 31.516)"/>
+        </g>
+        <g filter="url(#banner-zorka-c)">
+          <ellipse cx="10.399" cy="29.851" fill="#ede6ff" rx="10.399" ry="29.851" transform="matrix(.00324 1 1 -.00324 -39.328 7.883)"/>
+        </g>
+        <g filter="url(#banner-zorka-d)">
+          <ellipse cx="5.508" cy="30.487" fill="#7e14ff" rx="5.508" ry="30.487" transform="rotate(89.814 -25.913 -14.639)scale(1 -1)"/>
+        </g>
+        <g filter="url(#banner-zorka-e)">
+          <ellipse cx="5.508" cy="30.599" fill="#7e14ff" rx="5.508" ry="30.599" transform="rotate(89.814 -32.644 -3.334)scale(1 -1)"/>
+        </g>
+        <g filter="url(#banner-zorka-f)">
+          <ellipse cx="5.508" cy="30.599" fill="#7e14ff" rx="5.508" ry="30.599" transform="matrix(.00324 1 1 -.00324 -34.34 30.47)"/>
+        </g>
+        <g filter="url(#banner-zorka-g)">
+          <ellipse cx="14.072" cy="22.078" fill="#ede6ff" rx="14.072" ry="22.078" transform="rotate(93.35 24.506 48.493)scale(-1 1)"/>
+        </g>
+        <g filter="url(#banner-zorka-h)">
+          <ellipse cx="3.47" cy="21.501" fill="#7e14ff" rx="3.47" ry="21.501" transform="rotate(89.009 28.708 47.59)scale(-1 1)"/>
+        </g>
+        <g filter="url(#banner-zorka-i)">
+          <ellipse cx="3.47" cy="21.501" fill="#7e14ff" rx="3.47" ry="21.501" transform="rotate(89.009 28.708 47.59)scale(-1 1)"/>
+        </g>
+        <g filter="url(#banner-zorka-j)">
+          <ellipse cx=".387" cy="8.972" fill="#7e14ff" rx="4.407" ry="29.108" transform="rotate(39.51 .387 8.972)"/>
+        </g>
+        <g filter="url(#banner-zorka-k)">
+          <ellipse cx="47.523" cy="-6.092" fill="#7e14ff" rx="4.407" ry="29.108" transform="rotate(37.892 47.523 -6.092)"/>
+        </g>
+        <g filter="url(#banner-zorka-l)">
+          <ellipse cx="41.412" cy="6.333" fill="#47bfff" rx="5.971" ry="9.665" transform="rotate(37.892 41.412 6.333)"/>
+        </g>
+        <g filter="url(#banner-zorka-m)">
+          <ellipse cx="-1.879" cy="38.332" fill="#7e14ff" rx="4.407" ry="29.108" transform="rotate(37.892 -1.88 38.332)"/>
+        </g>
+        <g filter="url(#banner-zorka-n)">
+          <ellipse cx="-1.879" cy="38.332" fill="#7e14ff" rx="4.407" ry="29.108" transform="rotate(37.892 -1.88 38.332)"/>
+        </g>
+        <g filter="url(#banner-zorka-o)">
+          <ellipse cx="35.651" cy="29.907" fill="#7e14ff" rx="4.407" ry="29.108" transform="rotate(37.892 35.651 29.907)"/>
+        </g>
+        <g filter="url(#banner-zorka-p)">
+          <ellipse cx="38.418" cy="32.4" fill="#47bfff" rx="5.971" ry="15.297" transform="rotate(37.892 38.418 32.4)"/>
+        </g>
+      </g>
+    </g>
+    <text x="34" y="324" fill="#EDF4FF" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="8">ZORKA</text>
+  </g>
+
+  <g transform="translate(590 52)">
+    <text x="0" y="74" fill="#EDF4FF" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="-1.4" textLength="760" lengthAdjust="spacingAndGlyphs">Your business rules.</text>
+    <text x="0" y="138" fill="#C89BFF" font-family="Segoe UI, Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="-1.4" textLength="824" lengthAdjust="spacingAndGlyphs">Running where decisions happen.</text>
+    <text x="2" y="184" fill="#8EA1BF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.7" textLength="818" lengthAdjust="spacingAndGlyphs">AI-ASSISTED AUTHORING / CLOUD-READY RUNTIME / DEPLOY IN YOUR ENVIRONMENT</text>
+    <path d="M0 220H444" stroke="url(#banner-rule)" stroke-width="2"/>
+    <text fill="#C9D6E8" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="500">
+      <tspan x="0" y="266" textLength="790" lengthAdjust="spacingAndGlyphs">Typed rule systems, business-owned workflows, and a stateless engine</tspan>
+      <tspan x="0" y="294">for live production decisions.</tspan>
+    </text>
+
+    <g transform="translate(0 320)">
+      <rect x="0.5" y="0.5" width="228" height="46" rx="23" fill="#122034" stroke="url(#banner-chip-stroke)"/>
+      <circle cx="24" cy="23" r="6" fill="#46B69F"/>
+      <text x="40" y="29" fill="#EDF4FF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Visit zorka.com</text>
+    </g>
+  </g>
+
+  <defs>
+    <filter id="banner-zorka-b" width="60.045" height="41.654" x="-19.77" y="16.149" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur result="effect1_foregroundBlur_banner_b" stdDeviation="7.659"/>
+    </filter>
+    <filter id="banner-zorka-c" width="90.34" height="51.437" x="-54.613" y="-7.533" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur result="effect1_foregroundBlur_banner_c" stdDeviation="7.659"/>
+    </filter>
+    <filter id="banner-zorka-d" width="79.355" height="29.4" x="-49.64" y="2.03" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur result="effect1_foregroundBlur_banner_d" stdDeviation="4.596"/>
+    </filter>
+    <filter id="banner-zorka-e" width="79.579" height="29.4" x="-45.045" y="20.029" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur result="effect1_foregroundBlur_banner_e" stdDeviation="4.596"/>
+    </filter>
+    <filter id="banner-zorka-f" width="79.579" height="29.4" x="-43.513" y="21.178" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur result="effect1_foregroundBlur_banner_f" stdDeviation="4.596"/>
+    </filter>
+    <filter id="banner-zorka-g" width="74.749" height="58.852" x="15.756" y="-17.901" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur result="effect1_foregroundBlur_banner_g" stdDeviation="7.659"/>
+    </filter>
+    <filter id="banner-zorka-h" width="61.377" height="25.362" x="23.548" y="2.284" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur result="effect1_foregroundBlur_banner_h" stdDeviation="4.596"/>
+    </filter>
+    <filter id="banner-zorka-i" width="61.377" height="25.362" x="23.548" y="2.284" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur result="effect1_foregroundBlur_banner_i" stdDeviation="4.596"/>
+    </filter>
+    <filter id="banner-zorka-j" width="56.045" height="63.649" x="-27.636" y="-22.853" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur result="effect1_foregroundBlur_banner_j" stdDeviation="4.596"/>
+    </filter>
+    <filter id="banner-zorka-k" width="54.814" height="64.646" x="20.116" y="-38.415" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur result="effect1_foregroundBlur_banner_k" stdDeviation="4.596"/>
+    </filter>
+    <filter id="banner-zorka-l" width="33.541" height="35.313" x="24.641" y="-11.323" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur result="effect1_foregroundBlur_banner_l" stdDeviation="4.596"/>
+    </filter>
+    <filter id="banner-zorka-m" width="54.814" height="64.646" x="-29.286" y="6.009" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur result="effect1_foregroundBlur_banner_m" stdDeviation="4.596"/>
+    </filter>
+    <filter id="banner-zorka-n" width="54.814" height="64.646" x="-29.286" y="6.009" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur result="effect1_foregroundBlur_banner_n" stdDeviation="4.596"/>
+    </filter>
+    <filter id="banner-zorka-o" width="54.814" height="64.646" x="8.244" y="-2.416" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur result="effect1_foregroundBlur_banner_o" stdDeviation="4.596"/>
+    </filter>
+    <filter id="banner-zorka-p" width="39.409" height="43.623" x="18.713" y="10.588" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur result="effect1_foregroundBlur_banner_p" stdDeviation="4.596"/>
+    </filter>
+  </defs>
+</svg>
