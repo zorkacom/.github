@@ -3,58 +3,78 @@
 </p>
 
 <p align="center">
-  <strong>Cloud-ready AI decision engine for business-owned rules.</strong>
+  <strong>Private-runtime decision platform for business-owned rules.</strong>
 </p>
 
 <p align="center">
-  Zorka helps teams turn policy into live production decisions with AI-assisted authoring and a stateless runtime that runs in their cloud for full runtime speed.
+  Zorka helps teams author, test, compose, explain, and run business decisions without moving sensitive workflow data into a shared rules SaaS.
 </p>
 
 <p align="center">
-  PII and PIFI stay in their environment instead of being sent to ours.
+  Policy owners get Studio. Engineers get versioned contracts, runtime control, and embeddable execution. Operators get traces they can actually read.
 </p>
 
 <p align="center">
   <a href="https://zorka.com">Visit zorka.com</a>
   ·
-  <a href="https://zorka.com">See the product</a>
-  ·
-  <a href="https://zorka.com">Request more information</a>
+  <a href="https://zorka.com/docs">Read docs</a>
+</p>
+
+<p align="center">
+  <img src="./zorka-studio.png" alt="Zorka Studio showing a wire-transfer screening ruleset with nested rules and ForEach action authoring" width="920">
 </p>
 
 ---
 
-## Why Teams Look At Zorka
+## What Zorka Is
 
-| What matters | What Zorka gives them |
+Zorka is a rules authoring and execution platform for teams whose decisions are too important to hide in application code, spreadsheets, or a black-box model prompt.
+
+The core idea is simple: business teams should be able to own the policy, engineering teams should be able to trust the runtime contract, and sensitive payloads should stay in the customer's environment.
+
+| Layer | What Zorka gives you |
 | --- | --- |
-| Business teams need to change rules without waiting on a release | AI-assisted authoring, guided editors, and decision tables that keep logic aligned with the runtime |
-| Sensitive workflows cannot push data into a shared SaaS rules store | A stateless runtime that executes in your environment so PII and PIFI stay in your cloud, not ours |
-| Multiple teams need isolation and governance | Team-aware sign-in, org-scoped control, and deployment patterns that stay close to each application |
-| Technical teams need speed without mystery | Runtime execution in your cloud for full engine speed, plus typed inputs, reusable logic, traceability, and clear execution behavior |
+| Authoring | Zorka Studio for rules, decision tables, lookup data, schemas, payloads, trace views, and AI-assisted change proposals |
+| Runtime | A fast private runtime host that executes rules close to your application and data |
+| Composition | Reusable RuleSets, rule collections, loops, child calls, pinned references, and shared or global building blocks |
+| Explainability | Versioned Trace Views and execution-flow traces for the exact rule version, payload, runtime options, and dependencies that ran |
+| Governance | Account, organization, and tenant boundaries; visibility controls; schema drift checks; publish-time validation; runtime version routing |
+| Integration | API and client helpers, batch execution, embedded consumers, self-contained local evaluation, and hosted deployment paths |
 
 ---
 
-## Built For Real Decision Work
+## What Teams Can Build With It
 
-- Loan qualification, pricing bands, and eligibility logic
-- Shopping cart pricing, promotions, and approval flows
-- Insurance, compliance, and regulated workflow decisions
-- Multi-org platforms that need isolated rule ownership
-- Teams that want business-owned logic without low-code compromise
+Zorka combines the pieces teams usually have to stitch together themselves:
+
+- **Studio authoring for real rules.** Authors can build rules, reusable rule flows, decision tables, lookup data, input and result schemas, payload libraries, and Trace Views without dropping into raw JSON for everyday work.
+- **AI-assisted change proposals.** Ziggy reads the open ruleset context, drafts reviewable changes, and lets authors approve, reject, or refine the proposal inside the workbench.
+- **Composable RuleSets.** `ExecuteRuleSet` lets one RuleSet call another through a named alias. The callee runs in a sealed scope, the caller reads only the published result surface, and pinned/latest/self reference modes make reuse explicit.
+- **First-class loops and batch execution.** `ForEach`, `While`, `DoWhile`, and `LoopControl` handle iteration inside one decision. Runtime-host batch execution handles many independent inputs with ordered row artifacts and bounded concurrency.
+- **Decision tables with guardrails.** Hit policies such as Unique, Any, First, Rule order, and Collect make row behavior explicit, while analysis catches overlap, conflicts, unreachable rows, and gaps before rules meet traffic.
+- **Typed expressions.** Collection, predicate, date, numeric, null-safe, list, and object helpers are available through a capability-driven expression catalog, with static checks against the ruleset schemas.
+- **Trace Views and execution flow.** Runs can be explained through business-readable views while still preserving the runtime truth: matched rules, nested RuleSet calls, loop iterations, dependency versions, runtime options, and result snapshots.
+- **Private runtime execution.** Rules run close to the customer's application and data, with runtime version routing, versioned bundle and trace envelopes, schema drift protection, and a self-contained local package for real-stack evaluation.
+
+The result is a platform where a rule can be drafted by AI, reviewed by a policy owner, validated against typed schemas, load-tested, called by another RuleSet, traced through nested execution, and run in the customer's environment.
 
 ---
 
-## What You’ll Find In This Org
+## Built For Decisions That Need Evidence
 
-This organization is where Zorka’s public GitHub presence will grow: examples, integrations, starter assets, and supporting repositories around the product.
+- Insurance eligibility, census rating, claim adjudication, and carrier-wide batch processing
+- Wire screening, compliance holds, risk bands, and regulated approval flows
+- Marginal tax, payroll, withholding, pricing, and jurisdiction-specific calculations
+- Shopping cart promotions, loan qualification, pricing bands, and review flags
+- Multi-tenant products that need shared business logic without shared customer data
+- Teams that need business-owned rules without low-code ambiguity or runtime mystery
 
-If you want the product story, deployment model, or a closer look at how Zorka works, go to [zorka.com](https://zorka.com).
+Zorka's seeded examples are not toy demos. They exercise the same runtime features the platform exposes: `ExecuteRuleSet`, child RuleSets, sequential and parallel `ForEach`, `LoopControl`, `Collect` hit policies, typed expressions, schema validation, and trace execution flow.
 
 ---
 
-## More Information
+## What You Will Find Here
 
-Zorka is built for teams that need business rules to move faster without giving up control, performance, or data custody.
+This GitHub organization is where Zorka's public engineering surface will grow: examples, integrations, starter assets, SDK/package work, deployment helpers, and supporting repositories around the product.
 
-Visit [zorka.com](https://zorka.com) for product details and next steps.
+If you are evaluating whether Zorka fits your stack, start with the product story at [zorka.com](https://zorka.com) or the docs at [zorka.com/docs](https://zorka.com/docs).
